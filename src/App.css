@@ -1,0 +1,2086 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  box-sizing: inherit;
+  scrollbar-width: none;
+}
+
+/* ///////// First-sec and Navbar CSS ////////// */
+
+.first-sec {
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background: url("D:\Jasraj Internship Files\accounts_cart\public\Images\Group 11.jpg");
+  background-size: cover;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 4rem;
+}
+nav a {
+  margin: 0 1rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #3b5a9b;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #807d7d;
+}
+
+header .nav-btn {
+  padding: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #eee;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.logo > a > img {
+  width: 75%;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.login {
+  background: #3b5a9b;
+  border-radius: 50px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  color: #ffffff;
+}
+
+.btn-button {
+  box-sizing: border-box;
+  border: 1px solid #3b5a9b;
+  margin: 0.9rem;
+  font-size: 16px;
+  width: 100px;
+  height: 40px;
+  top: 98px;
+  transition: all 0.4s;
+  transition-timing-function: cubic-bezier(0.5, 3, 0, 1);
+}
+
+.btn-button:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.signup {
+  border: 1px solid #838383;
+  border-radius: 50px;
+}
+
+/* ////// SearchBar CSS ////// */
+
+.wrapper {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.Service {
+  width: 100%;
+}
+
+.Service > h1 {
+  margin-top: 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 121%;
+  color: #3b5a9b;
+}
+
+.Service > p {
+  margin-top: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 144.5%;
+  letter-spacing: 0.02em;
+  color: #807d7d;
+}
+
+.searchBar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 25px;
+}
+
+#searchQueryInput {
+  width: 100%;
+  height: 3.8rem;
+  background: #ffffff;
+  box-shadow: 2px 4px 9px rgba(0, 0, 0, 0.07);
+  border-radius: 154px;
+  outline: none;
+  border: none;
+  border-radius: 1.625rem;
+  padding: 0 3.5rem 0 2.5rem;
+  font-size: 1rem;
+}
+
+#searchQuerySubmit {
+  margin-left: -3.5rem;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+#searchQuerySubmit > .icon-search {
+  width: 40px;
+  height: 40px;
+  background: rgba(217, 235, 247, 1);
+  border-radius: 50%;
+}
+
+#searchQuerySubmit:hover {
+  cursor: pointer;
+}
+
+.girl_img {
+  display: flex;
+  justify-content: end;
+}
+.girl_img > img {
+  width: 100%;
+  height: auto;
+}
+
+/* ---------- Counter CSS ---------- */
+.counter {
+  background: #ffffff;
+  box-shadow: 4px 4px 19px rgba(0, 0, 0, 0.1);
+  border-radius: 40px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.blue {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3em;
+  line-height: 121%;
+  color: #3b5a9b;
+}
+
+.red {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3em;
+  line-height: 121%;
+  color: #e94041;
+}
+
+.text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 144.5%;
+  letter-spacing: 0.02em;
+  color: #9d9d9d;
+}
+
+/* ---------- Banner CSS --------------- */
+
+.buy_sm > h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 69px;
+  line-height: 97px;
+  text-align: center;
+  color: #3b5a9b;
+  position: relative;
+  z-index: 1;
+}
+
+.buy_p > p {
+  display: flex;
+  justify-content: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 144.5%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #807d7d;
+}
+
+.mail-img {
+  display: flex;
+  justify-content: center;
+}
+
+.mail-img > img {
+  height: 100px;
+  width: 100px;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 35px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid rgba(59, 90, 155, 1);
+  border-radius: 100%;
+}
+
+.slider-slide {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.slick-next:before,
+.slick-prev:before {
+  font-size: 20px;
+  line-height: 1;
+  opacity: 0.75;
+  color: #000;
+}
+
+.fa {
+  color: rgba(59, 90, 155, 1);
+}
+
+.card1 {
+  background: #ffffff;
+  border-radius: 20px;
+}
+
+.card1inner {
+  width: 330px;
+  margin-left: 10px;
+  box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.card1inner:hover {
+  background: rgba(220, 241, 255, 0.46);
+  border-radius: 20px;
+}
+
+.mail-img > a {
+  text-decoration: none;
+}
+
+.card-title {
+  display: flex;
+  justify-content: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 144.5%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #3b5a9b;
+}
+
+.card-text {
+  display: flex;
+  justify-content: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 144.5%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #4b4b4b;
+}
+
+.s-b {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-1 {
+  width: 140px;
+  height: 40px;
+  border: none;
+  background: #e82c2d;
+  box-shadow: 2px 4px 9px rgba(0, 0, 0, 0.12);
+  border-radius: 24px;
+  border-radius: 50px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+  transition: all 0.4s;
+  transition-timing-function: cubic-bezier(0.5, 3, 0, 1);
+}
+
+.btn-1 :hover {
+  transform: scale(1.1, 1.1);
+}
+
+.slider-counter ul li {
+  display: inline-flex;
+  font-family: "Raleway", sans-serif;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+.slider-counter > i:hover {
+  cursor: pointer;
+}
+
+/* ----------- Email jsx ------------ */
+.step {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: cream;
+}
+
+.v-stepper {
+  position: relative;
+}
+
+.step .circle {
+  background-color: white;
+  border: 3px solid gray;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+
+.step .line {
+  top: 23px;
+  left: 12px;
+  height: 100%;
+  position: absolute;
+  border-left: 3px solid gray;
+}
+
+.step.completed .circle {
+  visibility: visible;
+  background-color: rgb(6, 150, 215);
+  border-color: rgb(6, 150, 215);
+}
+
+.step.completed .line {
+  border-left: 3px solid rgb(6, 150, 215);
+}
+
+.step.active .circle {
+  visibility: visible;
+  border-color: rgb(6, 150, 215);
+}
+
+.step.empty .circle {
+  visibility: hidden;
+}
+
+.step.empty .line {
+  top: 0;
+  height: 150%;
+}
+
+.step:last-child .line {
+  border-left: 3px solid white;
+  z-index: -1;
+}
+
+.content {
+  margin-left: 20px;
+  display: inline-block;
+}
+
+.em-sec {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background: url("D:\Jasraj Internship Files\accounts_cart\public\Images\Rectangle 29.png");
+}
+
+.section-1 {
+  width: 50%;
+  padding-left: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+}
+
+.section-1 > h1 {
+  padding-top: 50px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 121%;
+  color: #3b5a9b;
+}
+
+.section-1 > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 144.5%;
+  letter-spacing: 0.02em;
+  color: #807d7d;
+}
+
+.email-img > img {
+  padding-top: 100px;
+  padding-right: 20px;
+}
+
+.email-img2 > img {
+  visibility: hidden;
+}
+
+.content > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 144.5%;
+  letter-spacing: 0.02em;
+  color: #3b5a9b;
+}
+
+/* ----------- Buy mail Css ---------------- */
+.buymail {
+  background: #3b5a9b;
+  padding: 65px;
+}
+
+.bm-head h1 {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 103px;
+  color: #ffffff;
+}
+.bm-head > p {
+  padding-top: 20px;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 144.5%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.cardcontentinner {
+  width: 340px;
+  height: 350px;
+  border-radius: 20px;
+  margin-left: 20px;
+  background-color: #ffffff;
+  margin-right: 20px;
+}
+
+.slick-prev:before {
+  font-size: 20px;
+  line-height: 1;
+  opacity: 0.75;
+  color: #dcedf7;
+}
+
+.slick-next:before {
+  font-size: 20px;
+  line-height: 1;
+  opacity: 0.75;
+  color: #dcedf7;
+}
+
+/* ------------- Testimonial --------------*/
+.Testimonial {
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: url("D:\Jasraj Internship Files\accounts_cart\public\Images\group-people-working-out-business-plan-office 1.png");
+}
+
+.test-card {
+  margin-top: 20px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  width: 70%;
+}
+.test_img {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.test-card > p {
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 144.5%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #807d7d;
+  margin-top: 20px;
+}
+
+.test-card > h1 {
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 144.5%;
+  text-align: center;
+  color: #3b5a9b;
+}
+
+.test-card > p > i {
+  color: rgba(59, 90, 155, 0.69);
+}
+
+.p-line {
+  border-top: 1px solid #c1c1c1;
+  box-shadow: 3px 4px 15px rgba(0, 0, 0, 0.21);
+}
+
+.button {
+  margin: 20px 40px;
+  background-color: transparent;
+  border: none;
+}
+
+.fa-circle-arrow-left {
+  width: 30px;
+  color: #3b5a9b;
+}
+
+.fa-circle-arrow-right {
+  width: 30px;
+  color: #3b5a9b;
+}
+
+/* ----------- Footer -------------- */
+
+.page-footer {
+  padding-top: 50px;
+}
+
+.f-img > img {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 45px;
+  padding-bottom: 20px;
+}
+
+.f-h > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 144.5%;
+  letter-spacing: 0.02em;
+  color: #807d7d;
+  text-align: justify;
+  padding-left: 50px;
+}
+.f-h > p > span {
+  color: #e82c2d;
+}
+
+.sidelist {
+  padding-bottom: 50px;
+  text-align: start;
+}
+
+.sidelist > h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 144.5%;
+  letter-spacing: 0.02em;
+  color: #807d7d;
+}
+
+.sidelist > ul > li > a {
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  letter-spacing: 0.02em;
+  color: #807d7d;
+}
+
+.footer-copyright {
+  background: #3a5a9b;
+}
+
+.f-c {
+  font-family: "Inter";
+  font-style: normal;
+}
+
+.f-c > h5 {
+  font-size: 1.2em;
+  color: #fff;
+}
+
+.social-links > a > i {
+  margin: 0.5em;
+}
+
+/*  */
+
+/* Blog */
+
+.bloguppersec {
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background: url("D:\Jasraj Internship Files\accounts_cart\public\Images\Group 11.jpg");
+  background-size: cover;
+}
+
+.bhtext {
+  font-family: "poppins";
+  text-align: center;
+}
+
+.bhtext > h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4em;
+  line-height: 121%;
+  color: #3b5a9b;
+}
+
+.hometext {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 144.5%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #807d7d;
+}
+
+.addressbar {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 144.5%;
+  letter-spacing: 0.02em;
+  color: #3b5a9b;
+}
+
+.addressbar > span {
+  font-family: "Inter";
+  color: #807d7d;
+}
+
+.bhtext2 > p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5em;
+  line-height: 144.5%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #807d7d;
+}
+
+.bhtext2 > h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3em;
+  line-height: 121%;
+  text-align: center;
+  color: #3b5a9b;
+}
+
+.blogCard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  padding: 10px;
+  overflow: hidden;
+}
+
+.card-img-top > img {
+  border-radius: 10px;
+  filter: drop-shadow(2px 4px 15px rgba(0, 0, 0, 0.25));
+  width: 350px;
+}
+
+.post {
+  transition: all 0.4s ease;
+}
+
+.cardBody {
+  width: 330px;
+  background: #ffffff;
+  border-radius: 12px;
+  margin-top: -20px;
+  margin-left: 9px;
+  transition: all 0.4s ease;
+}
+
+.post:hover {
+  transform: translate(0, -10px);
+}
+
+.cardBody:hover {
+  transform: translate(0, -10px);
+}
+
+.postTitle {
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #acabab;
+}
+
+.blogCard > a {
+  text-decoration: none;
+}
+
+/* ****** React Paginate ********* */
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination > li > a {
+  margin: 0 0.76rem;
+}
+
+.active {
+  color: #ffffff;
+  background: #5979b9;
+  width: 35px;
+  height: 35px;
+  border-radius: 40px;
+  padding-top: 5px;
+}
+
+.previous {
+  display: none;
+}
+
+.next {
+  display: none;
+}
+
+/* ********************** */
+
+.blogpara {
+  font-family: "poppins";
+}
+
+.postHead {
+  background: url("D:\Jasraj Internship Files\accounts_cart\public\Images\Group 11.jpg");
+}
+
+/* ********************Login Page ************************* */
+
+.loginPage {
+  background: #e1e7f3;
+  height: 100vh;
+}
+
+.loginBox {
+  display: flex;
+  margin: 20px auto;
+  justify-content: center;
+  width: 50%;
+  background: #ffffff;  
+  box-shadow: 2px 4px 17px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+}
+
+.loginImg > img{
+  padding-top: 10px;
+}
+
+.loginTitle > p {
+  font-family: "Poppins", sans-serif;
+}
+
+.forgotPass > a {
+  text-decoration: none;
+  color: #3b5a9b;
+}
+
+.btn-login {
+  background: #3b5a9b;
+  color: #ffffff;
+  border: none;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 1.2em;
+  font-family: "Inter";
+}
+
+.btn-signUp {
+  text-decoration: none;
+}
+
+.su > a {
+  text-decoration: none;
+  color: #3b5a9b;
+}
+
+.btn-floating{
+  background-color: #3b5a9b;
+  color: #ffffff;
+}
+/* *********Signup Form ****************** */
+
+.SignUp{
+  font-family: 'Inter';
+  background-color: #e1e7f3;
+  height: 100vh;
+}
+
+.signupform{
+  display: flex;
+  margin: 0 auto;
+}
+
+.toggleye{
+  margin-top: 5px;
+  margin-left: -50px;
+}
+
+.btn-signUp{
+  background: #3b5a9b;
+  color: #ffffff;
+  border: none;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 1.2em;
+  font-family: "Inter";
+}
+
+.Gender{
+  font-size: 1.3em; 
+}
+
+.birth{
+  font-size: 1.2em;
+}
+
+/* ********* Forget Password ****************** */
+
+.ForgetPassword{
+  font-family: "Inter";
+  background-color: #e1e7f3;
+  height: 100vh;  
+}
+
+.ForgetPassword-btn-reset{
+  border-radius: 5px;
+  background: #3b5a9b;
+  color: #ffffff;
+  border: none;
+  box-sizing: border-box;
+  border: 1px solid #3b5a9b;
+  margin: 0.3rem;
+  font-size: 12px;
+  width: 120px;
+  height: 40px;
+  top: 98px;
+  font-family: "Inter";
+  transition: all 0.4s;
+  transition-timing-function: cubic-bezier(0.5, 3, 0, 1);
+}
+
+.ForgetPassword-btn-reset:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.ForgetPassword-label{
+  font-size: 1.5em;
+}
+
+.reset-button{
+  background: #3b5a9b;
+  color: #ffffff;
+  border: none;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 1.2em;
+  font-family: "Inter";
+}
+
+
+/* Blog */
+
+/* ******* Users *********** */
+
+.userhead {
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background: url("D:\Jasraj Internship Files\accounts_cart\public\Images\Group 11.jpg");
+  background-size: cover;
+}
+
+.table {
+  font-family: "Poppins";
+  overflow-x:auto;
+  margin-top: 20px;
+  width: 100%; 
+  border-collapse: collapse; 
+}
+
+.userTableHead{
+  color:#3b5a9b;
+}
+
+tr:hover {
+  background-color: #e7e9eb;
+}
+
+th {
+  text-align: center;
+  border-bottom: 1px solid #000;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+td {
+  font-family: "Poppins";
+  padding: 5px;
+  text-align: center;
+  border-bottom: 1px solid #BEBEBE;
+}
+
+.adduser{
+  margin: 0px;
+  background-color: green;
+  border: 1px solid green;
+  color: white;
+  width: 120px;
+  border-radius: 5px;
+}
+
+.actionButton{
+  margin: 0px;
+  background-color: green;
+  border: 1px solid green;
+  color: black;
+  width: 100px;
+  border-radius: 5px; 
+}
+
+.adduserbtn{
+  margin: 0px;
+  background-color: green;
+  border: 1px solid green;
+  color: black;
+  width: 100px;
+  border-radius: 5px; 
+  color: #ffffff;
+}
+
+/* FAQ */
+
+.FaqUpperSec {
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background: url("D:\Jasraj Internship Files\accounts_cart\public\Images\Group 11.jpg");
+  background-size: cover;
+}
+
+.faqTitle {
+  font-family: "Poppins";
+  margin-top: 30px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 121%;
+  color: #3b5a9b;
+}
+
+.accordion-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 121%;
+  color: #4b4b4b;
+}
+
+.accordion {
+  max-width: 600px;
+  margin: auto;
+}
+
+.accordion-item{
+  border-radius: 5px;
+  box-shadow:2px 4px 9px rgba(0, 0, 0, 0.12);
+  border: 1px solid #f2f5f8;
+}
+
+.accordion-title {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  background-color: rgb(242, 245, 248);
+}
+
+.accordion-title,
+.accordion-content {
+  padding: 1rem;
+}
+
+.accordion-content {
+  background-color: rgb(242, 245, 248);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: justify;
+  color: #acabab;
+}
+
+.plus{
+  color: #acabab;
+}
+
+/* FAQ */
+
+/* Pricing */
+
+.PricingUpperSec {
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: url("D:\Jasraj Internship Files\accounts_cart\public\Images\Group 11.jpg");
+  background-size: cover;
+}
+
+.categoryContainer{
+  border:1px solid #000;
+}
+.categoryAccordion{
+  border: 1px solid #000;
+}
+
+/* Pricing */
+
+/* ******* Users ********** */
+
+@media screen and (max-width: 1240px) {
+  .first-sec {
+    width: 100%;
+  }
+
+  .Service > h1 {
+    font-size: 50px;
+  }
+
+  .navbar > .logo-box > img {
+    width: 100%;
+  }
+
+  .buttons > .login {
+    font-size: 16px;
+    width: 120px;
+    height: 40px;
+  }
+
+  .buttons > .signup {
+    font-size: 16px;
+    width: 120px;
+    height: 40px;
+  }
+
+  .Menu {
+    width: 65%;
+  }
+
+  .counter {
+    left: -50px;
+    bottom: -120px;
+  }
+
+  .logo-box > a > img {
+    width: 100%;
+  }
+
+  .sidelist > ul > li > a {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .first-sec {
+    width: 100%;
+  }
+  .Service > h1 {
+    font-size: 43px;
+  }
+
+  header .nav-btn {
+    visibility: visible;
+    opacity: 1;
+    color: #3a5a9b;
+  }
+
+  header nav {
+    position: absolute;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    transition: 0.5s ease-in-out;
+    transform: translateY(-100vh);
+    background-color: #03112c;
+  }
+
+  .responsive_nav {
+    transform: none;
+  }
+
+  .nav .nav-close-btn {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
+
+  nav a {
+    font-size: 1.3em;
+    color: #fff;
+  }
+
+  .nav-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .buy_sm > h1 {
+    font-size: 3.5em;
+    margin-top: 40px;
+  }
+
+  .buy_p > p {
+    font-size: 1.4em;
+  }
+
+  .section-1 > h1 {
+    font-size: 4em;
+  }
+
+  .section-1 > p {
+    font-size: 1.3em;
+  }
+
+  .card1inner {
+    width: 300px;
+  }
+
+  .f-img > img {
+    width: 70%;
+  }
+
+  .f-h > p {
+    font-size: 1em;
+  }
+
+  .sidelist > h5 {
+    font-size: 1em;
+  }
+
+  .sidelist > ul > li > a {
+    font-size: 0.8em;
+  }
+
+  .f-c > h5 {
+    font-size: 0.9em;
+  }
+
+  .cardcontentinner {
+    width: 267px;
+  }
+}
+
+@media only screen and (max-width: 999px) {
+  .first-sec {
+    width: 100%;
+  }
+
+  .Service {
+    margin-right: 20px;
+  }
+
+  .girl_img {
+    width: 100%;
+  }
+
+  .counter {
+    left: -45px;
+    bottom: -10px;
+    width: 100%;
+  }
+
+  .logo-box > a > img {
+    width: 100%;
+  }
+
+  .card1inner > h3 {
+    font-size: 1.5em;
+  }
+
+  .card-text {
+    font-size: 1em;
+  }
+
+  .cardcontentinner {
+    width: 300px;
+  }
+
+  .btn-1 {
+    width: 100px;
+    font-size: 1em;
+  }
+
+  .section-1 > h1 {
+    font-size: 3em;
+  }
+
+  .section-1 > p {
+    font-size: 1.3em;
+    text-align: justify;
+  }
+
+  .sidelist > ul > li > a {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .first-sec {
+    width: 100%;
+  }
+
+  .Service > h1 {
+    font-size: 1.875em;
+  }
+
+  .Service > p {
+    font-size: 1em;
+  }
+  .searchBar {
+    padding-bottom: 20px;
+  }
+
+  .header {
+    width: 100%;
+  }
+
+  .counter .blue {
+    font-size: 2em;
+  }
+
+  .red {
+    font-size: 2em;
+  }
+
+  .text {
+    font-size: 1.2em;
+  }
+
+  .card1inner {
+    width: 90%;
+  }
+
+  .buy_sm > h1 {
+    font-size: 2.5em;
+  }
+
+  .buy_p > p {
+    font-size: 1em;
+  }
+
+  .card1inner > h3 {
+    font-size: 1.2em;
+  }
+
+  .card-text {
+    font-size: 0.9em;
+  }
+
+  .btn-1 {
+    width: 100px;
+    font-size: 1em;
+  }
+
+  .email {
+    width: 100%;
+  }
+
+  .section-1 {
+    width: 100%;
+  }
+
+  .section-1 > h1 {
+    font-size: 3em;
+  }
+
+  .section-1 > p {
+    font-size: 1.3em;
+    text-align: justify;
+  }
+
+  .email-img > img {
+    display: none;
+  }
+
+  .email-img2 > img {
+    height: auto;
+    width: 90%;
+    visibility: visible;
+  }
+
+  .buymail {
+    width: 100%;
+  }
+
+  .bm-head > h1 {
+    font-size: 3em;
+  }
+
+  .bm-head > p {
+    padding-left: 0;
+    padding-right: 0%;
+    font-size: 1em;
+  }
+
+  .cardcontentinner {
+    width: 90%;
+  }
+
+  .f-img > img {
+    width: 60%;
+  }
+
+  .f-h > p {
+    font-size: 1em;
+  }
+
+  .sidelist > h5 {
+    font-size: 1em;
+  }
+
+  .page-footer {
+    padding-top: 20px;
+  }
+
+  .sidelist {
+    padding-bottom: 0;
+  }
+
+  .sidelist > ul > li > a {
+    font-size: 0.777em;
+  }
+
+  .test-card > p {
+    font-size: 0.9em;
+  }
+
+  .test-card > h1 {
+    font-size: 2em;
+  }
+
+}
+
+
+
+/* table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+
+table caption {
+  font-size: 1.5em;
+  margin: .5em 0 .75em;
+}
+
+table tr {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: .35em;
+}
+
+table th,
+table td {
+  padding: .625em;
+  text-align: center;
+}
+
+table th {
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+} */
+
+@media screen and (max-width: 640px) {
+
+  .wrapper {
+    width: 100%;
+  }
+
+  .Service {
+    width: 100%;
+  }
+
+  .Service > h1 {
+    font-size: 1.12222em;
+  }
+
+  .Service > p {
+    font-size: 0.8em;
+  }
+
+  .girl_img {
+    width: 80%;
+  }
+
+  .counter .blue {
+    font-size: 1.5em;
+  }
+
+  .red {
+    font-size: 1.5em;
+  }
+
+  .text {
+    font-size: 1em;
+  }
+
+  .btn-button {
+    width: 80px;
+  }
+
+  .buy_sm > h1 {
+    font-size: 2em;
+    margin-top: 20px;
+  }
+
+  .buy_p > p {
+    font-size: 0.8em;
+    margin-top: -10px;
+  }
+
+  .section-1 > h1 {
+    font-size: 3em;
+  }
+
+  .section-1 > p {
+    font-size: 1.1em;
+  }
+
+  .email-img2 > img {
+    padding-top: 50px;
+  }
+
+  .bm-head > h1 {
+    font-size: 2.6em;
+  }
+
+  .bm-head > p {
+    margin-top: -20px;
+    font-size: 0.8em;
+  }
+
+  .btn-1 {
+    width: 100px;
+  }
+
+  .test-card > p {
+    font-size: 1em;
+  }
+
+  .page-footer {
+    padding-top: 20px;
+  }
+
+  .f-img > img {
+    width: 50%;
+  }
+
+  .f-h > p {
+    font-size: em;
+  }
+
+  .sidelist {
+    padding-bottom: 0;
+  }
+
+  .sidelist > h5 {
+    padding-left: 30px;
+    font-size: 1em;
+  }
+
+  .sidelist > ul > li > a {
+    padding-left: 30px;
+    font-size: 0.9em;
+  }
+
+  table {
+    border: 0;
+  }
+
+  table caption {
+    font-size: 1.3em;
+  }
+  
+  th {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+  }
+  
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+  
+  table td::before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  table td:last-child {
+    border-bottom: 0;
+  } 
+
+}
+
+@media screen and (max-width: 540px) {
+  .first-sec {
+    width: 100%;
+  }
+
+  .girl_img {
+    display: none;
+  }
+
+  .Service {
+    width: 100%;
+  }
+
+  .counter {
+    padding: 5px;
+  }
+
+  .counter .blue {
+    font-size: 1.2em;
+  }
+
+  .red {
+    font-size: 1.2em;
+  }
+
+  .text {
+    font-size: 0.8em;
+  }
+
+  .Service > h1 {
+    text-align: center;
+    font-size: 2em;
+  }
+
+  .Service > p {
+    font-size: 1.4em;
+    text-align: center;
+  }
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .searchBar {
+    padding-bottom: 20px;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .buy_sm > h1 {
+    font-size: 2em;
+  }
+
+  .buy_p {
+    font-size: 0.86em;
+  }
+
+  .card1inner {
+    width: 250px;
+  }
+
+  button.btn-1.mb-5 {
+    width: 100px;
+  }
+
+  .mail-img > a {
+    width: 60px;
+    height: 60px;
+  }
+
+  .card1inner > h3 {
+    font-size: 1em;
+  }
+
+  .card-text {
+    font-size: 0.8em;
+  }
+
+  .slider-slide {
+    margin-top: 10px;
+  }
+
+  .btn-1 {
+    width: 80%;
+  }
+
+  .email-img > img {
+    display: none;
+  }
+
+  .email-img2 > img {
+    visibility: visible;
+  }
+
+  .em-sec {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .bm-head > h1 {
+    font-size: 2em;
+  }
+
+  .bm-head > p {
+    padding-top: 0;
+    font-size: 1em;
+  }
+
+  .cardcontentinner {
+    width: 90%;
+  }
+
+  .sg-card > img {
+    padding-top: 10px;
+    width: 100px;
+  }
+
+  .sg-card > p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1em;
+  }
+
+  .v-stepper > .circle > img {
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 50%;
+  }
+
+  .content > p {
+    margin-top: 10px;
+    font-size: 1.2em;
+  }
+
+  .f-img > img {
+    width: 50%;
+  }
+
+  .page-footer {
+    padding-top: 0;
+  }
+
+  .f-h {
+    padding-left: 0;
+  }
+
+  .f-h > p {
+    font-size: 0.8em;
+  }
+
+  .sidelist {
+    padding-bottom: 0;
+  }
+
+  .sidelist > h5 {
+    padding-left: 10px;
+    margin-bottom: 0;
+    font-size: 1em;
+  }
+
+  .sidelist > ul > li > a {
+    padding-left: 10px;
+    margin-bottom: 0;
+    font-size: 0.7em;
+  }
+
+  .btn-button {
+    font-size: 0.8em;
+    width: 80px;
+    height: 40px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .first-sec {
+    width: 100%;
+  }
+
+  .Service > h1 {
+    text-align: center;
+    font-size: 1.4em;
+  }
+  .Service > p {
+    font-size: 0.7em;
+    text-align: center;
+  }
+
+  .btn-button {
+    font-size: 0.9em;
+    width: 80px;
+    height: 30px;
+  }
+
+  .searchBar {
+    padding-bottom: 20px;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .counter {
+    padding: 10px;
+  }
+
+  .counter .blue {
+    font-size: 1.3em;
+  }
+
+  .red {
+    font-size: 1.3em;
+  }
+
+  .text {
+    font-size: 0.7em;
+  }
+
+  .buy_sm > h1 {
+    font-size: 1.4em;
+  }
+  .buy_p > p {
+    font-size: 1em;
+  }
+
+  .ubble {
+    display: none;
+  }
+
+  .slider-slide {
+    margin-top: 5px;
+  }
+
+  .cardcontentinner > h3 {
+    font-size: 1em;
+  }
+
+  .card-text {
+    font-size: 0.7em;
+  }
+  .btn-1 {
+    font-size: 0.6em;
+    width: 140px;
+  }
+  .card1inner {
+    width: 100%;
+  }
+  .section-1 > h1 {
+    font-size: 2em;
+  }
+  .section-1 > p {
+    font-size: 1em;
+  }
+
+  .ubble2 {
+    display: none;
+  }
+
+  .cardcontentinner > h3 {
+    font-size: 1.5em;
+  }
+
+  .cardcontentinner > p {
+    font-size: 1em;
+  }
+
+  .btn-1 {
+    width: 150px;
+  }
+
+  .f-h > p {
+    font-size: 0.8em;
+  }
+
+  .f-c > h5 {
+    font-size: 0.7em;
+  }
+
+  .social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+  }
+
+  .f-c {
+    width: 100%;
+  }
+
+  .f-c > h5 {
+    font-size: 1em;
+    margin-top: -5px;
+  }
+
+  .f-c {
+    display: flex;
+    justify-content: end;
+  }
+
+  .social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+  }
+
+  .sidelist > ul > li > a {
+    padding-left: 10px;
+    margin-bottom: 0;
+    font-size: 0.6em;
+  }
+}
+
+@media screen and (max-width: 393px) {
+  .page-footer {
+    padding: 0;
+  }
+
+  .buy_sm > h1 {
+    font-size: 1em;
+  }
+
+  .buy_p {
+    font-size: 0.9em;
+    margin-top: -20px;
+  }
+
+  .text {
+    font-size: 0.6em;
+  }
+
+  .btn-button {
+    width: 60px;
+  }
+
+  .btn-1 {
+    width: 100px;
+  }
+
+  .buy_p > p {
+    font-size: 0.777em;
+  }
+  .sidelist > ul > li > a {
+    padding-left: 10px;
+    margin-bottom: 0;
+    font-size: 0.5444444444444em;
+  }
+
+  .sidelist > h5 {
+    font-size: 0.6em;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .first-sec {
+    width: 100%;
+  }
+
+  .logo-box > a > img {
+    width: 100%;
+  }
+
+  .btn-button {
+    margin: 0.3em;
+    font-size: 0.5em;
+    width: 40px;
+  }
+
+  header nav {
+    height: 60%;
+  }
+  header .nav-btn {
+    font-size: 1em;
+  }
+
+  nav a {
+    font-size: 1em;
+  }
+
+  .counter .blue {
+    font-size: 0.8em;
+  }
+
+  .red {
+    font-size: 0.8em;
+  }
+
+  .text {
+    font-size: 0.5em;
+  }
+
+  .buy_sm > h1 {
+    margin-top: 50px;
+    font-size: 1.3em;
+  }
+
+  .buy_p > p {
+    margin-top: -20px;
+    font-size: 0.7em;
+  }
+
+  .card1inner {
+    width: 90%;
+  }
+
+  .section-1 > h1 {
+    font-size: 2em;
+  }
+
+  .section-1 > p {
+    font-size: 0.9em;
+  }
+
+  .content > p {
+    font-size: 0.9em;
+  }
+
+  .bm-head > h1 {
+    font-size: 1.06666em;
+    margin-top: -20px;
+  }
+
+  .bm-head > p {
+    text-align: justify;
+    font-size: 0.6666em;
+  }
+
+  .cardcontentinner {
+    width: 85%;
+  }
+
+  .cardcontentinner > h3 {
+    font-size: 0.9em;
+  }
+
+  .cardcontentinner > p {
+    font-size: 0.6em;
+  }
+
+  .btn-1 {
+    width: 100px;
+  }
+
+  .test-card > p {
+    font-size: 0.7em;
+  }
+  .test-card > h1 {
+    font-size: 1em;
+  }
+}

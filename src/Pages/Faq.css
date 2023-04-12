@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+}
+
+html,
+body {
+  box-sizing: inherit;
+  font-family: "Inter";
+}
+
+.FaqUpperSec {
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background: url("D:\Jasraj Internship Files\accounts_cart\public\Images\Group 11.jpg");
+  background-size: cover;
+}
+
+.faqTitle {
+  font-family: "Poppins";
+  margin-top: 30px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 121%;
+  color: #3b5a9b;
+}
+
+.accordion-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 121%;
+  color: #4b4b4b;
+}
+
+.accordion {
+  max-width: 600px;
+  margin: auto;
+}
+
+.accordion-item{
+  border-radius: 5px;
+  box-shadow:2px 4px 9px rgba(0, 0, 0, 0.12);
+  border: 1px solid #f2f5f8;
+}
+
+.accordion-title {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  background-color: rgb(242, 245, 248);
+}
+
+.accordion-title,
+.accordion-content {
+  padding: 1rem;
+}
+
+.accordion-content {
+  background-color: rgb(242, 245, 248);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: justify;
+  color: #acabab;
+}
+
+.plus{
+  color: #acabab;
+}
+
+@media screen and (max-width: 999px) {
+  .faqImg{
+    opacity: 0.4;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+
+  .accordion {
+    width: 90%;
+  }
+
+  .faqImg{
+    display: none;
+  }
+}

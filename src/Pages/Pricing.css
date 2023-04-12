@@ -1,0 +1,26 @@
+/* * {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  box-sizing: inherit;
+  font-family: "Inter";
+}
+
+.PricingUpperSec {
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: url("D:\Jasraj Internship Files\accounts_cart\public\Images\Group 11.jpg");
+  background-size: cover;
+}
+
+.categoryContainer{
+  border:1px solid #000;
+}
+.categoryAccordion{
+  border: 1px solid #000;
+} */
